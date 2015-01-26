@@ -24,3 +24,6 @@ Sur GitHub:
 -git commit -m "commentaires"
 -git remote add origin (url du repository)
 -git push origin master
+
+2)
+- Se placer dans dossier dans lequel on veux accéder au dossier
