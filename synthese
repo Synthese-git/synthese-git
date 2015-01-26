@@ -11,3 +11,16 @@ Sur GitHub:
 -Créer une nouvelle organisation.
 	Y ajouter les membres.
 -Créer un nouveau repository dont le propriétaire est l'organisation susdite.
+
+
+1)
+
+-Se placer dans le dossier qu'on veut initialiser ( cd "nomdossier")
+-git init
+-git add nomfichier.extension
+-git status (eventuellement pour vérifier l'avancement du procédé)
+-git commit -m "commentaires"
+ => Spécifier l'adresse mail et le nom avec les commandes données
+-git commit -m "commentaires"
+-git remote add origin (url du repository)
+-git push origin master
