@@ -25,5 +25,30 @@ Sur GitHub:
 -git remote add origin (url du repository)
 -git push origin master
 
+<<<<<<< HEAD
 2)
 - Se placer dans dossier dans lequel on veux accéder au dossier
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3) 
+ 
+-Créer un nouveau repository sur GitHub
+-Le synchroniser avec la machine locale
+>>>>>>> 27d8a6f9c475faae7e3feb9d4dbb4633228f5131
