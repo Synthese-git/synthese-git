@@ -1,59 +1,58 @@
-Consignes.
+Synthèse du logiciel de gestion de version décentralisé Git. Rémy Bouteloup & Julien Levefre
 
-1) Suivre et héberger un projet déjà existant.
+--------------------------
+Consignes
 
-2) Travailler sur un projet déjà hebergé.
+Comment faire pour : 
+A) Suivre et héberger un projet déjà existant.
 
-3) Nouveau projet sur GitHub, puis en local.
+B) Travailler sur un projet déjà hebergé.
 
-
-Sur GitHub:
--Créer une nouvelle organisation.
-	Y ajouter les membres.
--Créer un nouveau repository dont le propriétaire est l'organisation susdite.
-
-
-1)
-
--Se placer dans le dossier qu'on veut initialiser ( cd "nomdossier")
--git init
--git add nomfichier.extension
--git status
--git commit -m "commentaires"
- => Spécifier l'adresse mail et le nom avec les commandes données
--git commit -m "commentaires"
--git remote add origin (url du repository)
--git push origin master
-
-Explications des lignes de commandes
-git init -> Permet d'initialiser un dossier sur lequel git sera apte à suivre des fichiers.
-git add nomfichier -> Cette commande indique à Git que le fichier devra être versionné.
-git status -> Permet d'afficher les fichiers modifiés et prêt à être commités.
-
-2)
-- Se placer dans dossier dans lequel on veux accéder au dossier
+C) Faire un nouveau projet sur GitHub, puis en local.
+--------------------------
 
 
+A) Suivre et héberger un projet déjà existant.
+
+Se placer dans le dossier qu'on veut initialiser ( cd "nomdossier")
+
+Liste des commandes : 
+1 - git init
+2 - git add nomfichier.extension
+3 - git status
+4 - git commit -m "commentaires"
+5 - git config user.name "Nom Prenom" 
+6 - git config.email adresse@mail.com
+7 - git commit -m "commentaires"
+8 - git remote add origin (url du repository)
+9 - git push origin master
+
+Explications des lignes de commandes ci dessus : 
+1 - git init -> Permet d'initialiser un dossier sur lequel git sera apte à suivre des fichiers.
+2 - git add nomfichier -> Cette commande indique à Git que le fichier devra être versionné. C'est l'indexation.
+3 - git status -> Permet d'afficher les fichiers modifiés et prêt à être commités. C'est la validation.
+5 & 6 - Spécifier l'adresse mail et le nom avec les commandes données ci dessus si necessaire.
+JULIEN : Tu dois finir l'explications sur les commandes qu'il reste et faire de même pour le point B.
 
 
-Pour JULIEN  : Explications de chaques commandes à finir sur le point 1 et  à commencer sur le point 2
+B) Travailler sur un projet déjà hebergé.
 
-
-
-
+Liste des commandes : 
+1 - 
 
 
 
 
 
 
+C) Faire un nouveau projet sur GitHub, puis en local.
+
+Créer un dépot (new repository) sur le site GitHub.
+Retenir l'url https (copy) du dépot.
+
+Liste des commandes :
+1 - mkdir nomDuDossier
+2 - git init
+3 - 
 
 
-
-
-
-3) 
- 
--Créer un nouveau repository sur GitHub
--Le synchroniser avec la machine locale
->>>>>>> 27d8a6f9c475faae7e3feb9d4dbb4633228f5131
