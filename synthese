@@ -27,12 +27,14 @@ Liste des commandes :
 8 - git remote add origin (url du repository)
 9 - git push origin master
 
-Explications des lignes de commandes ci dessus : 
-1 - git init -> Permet d'initialiser un dossier sur lequel git sera apte à suivre des fichiers.
-2 - git add nomfichier -> Cette commande indique à Git que le fichier devra être versionné. C'est l'indexation.
-3 - git status -> Permet d'afficher les fichiers modifiés et prêt à être commités. C'est la validation.
+Explications des lignes de commandes ci-dessus : 
+1 - Permet d'initialiser un dossier sur lequel git sera apte à suivre des fichiers.
+2 - Ajoute un instantané du fichier, en préparation pour le suivi de version.
+3 - Liste tous les nouveaux fichiers et les fichiers modifiés à commiter.
 5 & 6 - Spécifier l'adresse mail et le nom avec les commandes données ci dessus si necessaire.
+
 JULIEN : Tu dois finir l'explications sur les commandes qu'il reste et faire de même pour le point B.
+PS : Aide de la fiche mémo donné par David pour t'aider au niveau des explications.
 
 
 B) Travailler sur un projet déjà hebergé.
@@ -52,7 +54,25 @@ Retenir l'url https (copy) du dépot.
 
 Liste des commandes :
 1 - mkdir nomDuDossier
-2 - git init
-3 - 
+2 - cd nomDuDossier
+3 - git init
+4 - git remote add origin UrlDuDépot
+5 - git add nomDuFichier
+6 - git commit -m "Commentaires"
+7 - git push -u origin master
+
+Explications des lignes de commandes ci-dessus : 
+1 - Création d'un dossier pour stocker les ressources.
+2 - Changer de répertoire pour s'y placer à l'intérieur.
+3 - Crée un dépot local à partir du nom spécifié.
+4 - Ajout du dossier au dépot GitHub.
+5 - Ajoute un instantané du fichier, en préparation pour le suivi de version.
+6 - Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions.
+7 - Envoie tous les commits de la branche local vers GitHub.
 
 
+Etapes fondamentales :
+- Modification
+- Indexation
+- Validation
+- Poussage
