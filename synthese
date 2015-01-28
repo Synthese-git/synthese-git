@@ -25,10 +25,13 @@ Sur GitHub:
 -git remote add origin (url du repository)
 -git push origin master
 
-<<<<<<< HEAD
+Explications des lignes de commandes
+git init -> Permet d'initialiser un dossier sur lequel git sera apte à suivre des fichiers.
+git add nomfichier -> Cette commande indique à Git que le fichier devra être versionné.
+
 2)
 - Se placer dans dossier dans lequel on veux accéder au dossier
-=======
+
 
 
 
