@@ -18,7 +18,7 @@ Sur GitHub:
 -Se placer dans le dossier qu'on veut initialiser ( cd "nomdossier")
 -git init
 -git add nomfichier.extension
--git status (eventuellement pour vérifier l'avancement du procédé)
+-git status
 -git commit -m "commentaires"
  => Spécifier l'adresse mail et le nom avec les commandes données
 -git commit -m "commentaires"
@@ -28,6 +28,7 @@ Sur GitHub:
 Explications des lignes de commandes
 git init -> Permet d'initialiser un dossier sur lequel git sera apte à suivre des fichiers.
 git add nomfichier -> Cette commande indique à Git que le fichier devra être versionné.
+git status -> Permet d'afficher les fichiers modifiés et prêt à être commités.
 
 2)
 - Se placer dans dossier dans lequel on veux accéder au dossier
@@ -35,6 +36,7 @@ git add nomfichier -> Cette commande indique à Git que le fichier devra être v
 
 
 
+Pour JULIEN  : Explications de chaques commandes à finir sur le point 1 et  à commencer sur le point 2
 
 
 
