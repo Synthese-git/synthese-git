@@ -24,23 +24,43 @@ Liste des commandes :
 5 - git config user.name "Nom Prenom" 
 6 - git config.email adresse@mail.com
 7 - git commit -m "commentaires"
-8 - git remote add origin (url du repository)
+8 - git remote add origin http://urldurepository
 9 - git push origin master
 
-Explications des lignes de commandes ci-dessus : 
+Explications des lignes de commandes ci-dessus :
 1 - Permet d'initialiser un dossier sur lequel git sera apte à suivre des fichiers.
 2 - Ajoute un instantané du fichier, en préparation pour le suivi de version.
 3 - Liste tous les nouveaux fichiers et les fichiers modifiés à commiter.
 5 & 6 - Spécifier l'adresse mail et le nom avec les commandes données ci dessus si necessaire.
+7 - Valide les modifications apportées à un fichier (indispensable pour l'uploader), - m permet d'ajouter un commentaire
+8 - Définit l'URL du dossier de destination sur git, avec lequel sera synchronisé le dossier local.
+9 - Pousse/envoie/upload le fichier, vers l'URL de destination définie au préalable.
 
-JULIEN : Tu dois finir l'explications sur les commandes qu'il reste et faire de même pour le point B.
-PS : Aide de la fiche mémo donné par David pour t'aider au niveau des explications.
+
+
+
+
 
 
 B) Travailler sur un projet déjà hebergé.
 
 Liste des commandes : 
-1 - 
+1 - git clone http://urldurepository
+2 - git add nomdufichier
+3 - git config user.name Nom Prenom 
+4 - git config.email adresse@mail.com
+5 - git commit -m "message"
+6 - git remote add origin http://urldurepository
+7 - git push origin master
+
+Explications des lignes de commandes ci-dessus :
+
+1 - Crée un clone du repertoire indiqué, localement.
+2 - Ajoute un instantané du fichier, en préparation pour le suivi de version.
+3 & 4 - Spécifier l'adresse mail et le nom avec les commandes données ci dessus si necessaire.
+5 - Valide les modifications apportées à un fichier (indispensable pour l'uploader), - m permet d'ajouter un commentaire.
+6 - Définit l'URL du dossier de destination sur git, avec lequel sera synchronisé le dossier local.
+7 - Pousse/envoie/upload le fichier, vers l'URL de destination définie au préalable.
 
 
 
