@@ -1,4 +1,4 @@
-Synthèse du logiciel de gestion de version décentralisé Git. Rémy Bouteloup & Julien Levefre
+Synthèse du logiciel de gestion de version décentralisé Git. Rémy Bouteloup & Julien Lefevre
 
 --------------------------
 Consignes
@@ -38,10 +38,6 @@ Explications des lignes de commandes ci-dessus :
 
 
 
-
-
-
-
 B) Travailler sur un projet déjà hebergé.
 
 Liste des commandes : 
@@ -61,9 +57,6 @@ Explications des lignes de commandes ci-dessus :
 5 - Valide les modifications apportées à un fichier (indispensable pour l'uploader), - m permet d'ajouter un commentaire.
 6 - Définit l'URL du dossier de destination sur git, avec lequel sera synchronisé le dossier local.
 7 - Pousse/envoie/upload le fichier, vers l'URL de destination définie au préalable.
-
-
-
 
 
 
